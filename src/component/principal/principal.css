@@ -1,0 +1,22 @@
+@media only screen and (max-width: 700px) {
+    .fotoCv img{
+        width: 10vh;
+        height: 20vh;
+    }
+
+    .section-1 h2, .section-1 p{
+        font-size: 2vh;
+    }
+
+    .section-1{
+        border-top: 2px solid black;
+    }
+
+    .section-2{
+        border-top: 2px solid black;
+    }
+
+    .gitGitHub{
+        width: 50%;
+    }
+}
