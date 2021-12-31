@@ -1,4 +1,7 @@
 @media only screen and (max-width: 700px) {
+    body{
+        background-color: black;
+    }
     .fotoCv img{
         width: 10vh;
         height: 20vh;
@@ -9,14 +12,87 @@
     }
 
     .section-1{
-        border-top: 2px solid black;
+        border-top: 2px solid #043381 ;
+        @keyframe{
+            5% {color:white;}
+            50% {color: green;}
+            100% {color: blue;}
+        }
     }
 
     .section-2{
         border-top: 2px solid black;
     }
 
+    .section-3{
+        border-top:2px solid black;
+    }
+
+    .section-4{
+        border-top:2px solid black;
+    }
+
     .gitGitHub{
         width: 50%;
+    }
+
+    .iconoprueba{
+        color: green;
+    }
+
+    a{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 0.5rem;
+    }
+    .mas-proyecto-en a{
+        border: none;
+    }
+    .footer-container{
+        border-top: 2px solid black;
+        padding-top: 1rem;
+        margin-top: 3rem;
+    }
+    .footer-container img{
+        width: 15%;
+    }
+
+    h1 , h2 , h3 , h4 , p , a , span{
+        color: white;
+    }
+    .html5{
+        color: #F06529;
+        font-size: 5vh;
+    }
+    .bootstrap{
+        color: #563d7c;
+        font-size: 5vh;
+    }
+    .sass{
+        color: #cc6699;
+        font-size: 5vh;
+    }
+    .javascript{
+        color: orange;
+        font-size: 5vh;
+    }
+    .react{
+        color: #61DBFB;
+        font-size: 5vh;
+    }
+    .node{
+        color: #68A063;
+        font-size: 5vh;
+    }
+    .git{
+        color: #f34f29;
+        font-size: 5vh;
+    }
+    .whatsapp{
+        color: green;
+        font-size: 5vh;
+    }
+    .linkedin{
+        font-size: 5vh;
     }
 }
