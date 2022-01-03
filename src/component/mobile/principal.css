@@ -13,23 +13,24 @@
 
     .section-1{
         border-top: 2px solid #043381 ;
-        @keyframe{
-            5% {color:white;}
-            50% {color: green;}
-            100% {color: blue;}
-        }
     }
 
     .section-2{
-        border-top: 2px solid black;
+        border-top: 2px solid #043381;
     }
 
     .section-3{
-        border-top:2px solid black;
+        border-top:2px solid #043381;
     }
 
     .section-4{
-        border-top:2px solid black;
+        border-top:2px solid #043381;
+    }
+
+    .section-4 a{
+        text-decoration: none;
+        border: 1px solid rgb(223, 223, 223);
+        padding: 0.5rem;
     }
 
     .gitGitHub{
@@ -39,19 +40,16 @@
     .iconoprueba{
         color: green;
     }
-
-    a{
-        text-decoration: none;
-        border: 1px solid black;
-        padding: 0.5rem;
-    }
     .mas-proyecto-en a{
         border: none;
     }
     .footer-container{
-        border-top: 2px solid black;
+        border-top: 1px solid #464947;
         padding-top: 1rem;
         margin-top: 3rem;
+    }
+    footer{
+        background-color: #ABB0AC;
     }
     .footer-container img{
         width: 15%;
@@ -73,7 +71,7 @@
         font-size: 5vh;
     }
     .javascript{
-        color: orange;
+        color: #F0DB4F;
         font-size: 5vh;
     }
     .react{
@@ -94,5 +92,24 @@
     }
     .linkedin{
         font-size: 5vh;
+    }
+    h2{
+        font-family: 'Fira Sans', sans-serif;
+    }
+    h3{
+        font-family: 'Work Sans', sans-serif;
+    }
+    h4{
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    span , a{
+        font-family: 'Bebas Neue', cursive;
+    }
+    p{
+        font-family: 'Questrial', sans-serif;
+    }
+    .section-1 span{
+        font-family: 'Abel', sans-serif;
+        color: #67E780;
     }
 }

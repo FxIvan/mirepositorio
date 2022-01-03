@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+.section-1d{
+    height: 70vh;
+}
+.section-1-background{
+    background-color: #272525;
+    border-radius: 0 0 30% 30%;
+    border-bottom: 2px solid rgb(105, 104, 104);
+    height: 70vh;
+}
+
+#sombraneond{
+    width: 15vh;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin: 0;
+}
+
+#saludandod{
+    width: 20vh;
+    height: 20vh;
+}
+
+h1, h2 , h3 , h4 , p , span , a{
+    color: white;
+}
+
+#fotoCvd{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.scv-d , .herramientasd{
+    margin: 10vh 0 2vh 0;
+}
+
+.html5{
+    color: #F06529;
+}
+
+.bootstrapd{
+    color: #240355;
+}
+
+.sass{
+    color: #cc6699;
+}
+.git{
+    color: #f34f29;
+}
+
+.github{
+    color: black;
+}
+.js{
+    color: #F0DB4F;
+}
+.react{
+    color: #61DBFB;
+}
+
+.nodejs{
+    color: #68A063;
+}
+.whatsappD{
+    color: green;
+}
+
+.linkedinD{
+    color: #0e76a8;
+}
+
+.card-d{
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border: 2px solid rgb(95, 94, 94);
+}
+
+
+
+
+
+

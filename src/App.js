@@ -5,11 +5,13 @@ import { Principal } from './component/principal/principal';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Principal/>}/>
-      </Routes>
-    </BrowserRouter>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Principal/>}/>
+        </Routes>
+      </BrowserRouter>
+
   );
 }
 
