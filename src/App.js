@@ -8,7 +8,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/mirepositorio'  element={<Principal/>}/>
+          <Route path='/mirepositorio' element={<Principal/>}/>
         </Routes>
       </BrowserRouter>
 
