@@ -3,6 +3,7 @@ import './desktop.css'
 import sombraneon from '../img/sombraneon.png'
 import saludando from '../img/saludandoastronauta.jpg'
 import fotoCv from '../img/fotoCv.jpg'
+import logo from '../img/logo.png'
 import Typed from 'react-typed'
 import {
   AiFillHtml5,
@@ -120,29 +121,44 @@ export const Desktop = () => {
                 <div className='col-2 row card-d text-center'>
                     <div><h3>Login</h3></div>
                     <div><p>version:<br/>Desktop</p></div>
-                    <div><a href='https://github.com/FxIvan/login/tree/loginTerminado'>Login</a></div>
+                    <div className='button-a'><a href='https://github.com/FxIvan/login/tree/loginTerminado'>Login</a></div>
                     <div className='mt-4'><GrReactjs className='react' size={30}/> <BsFillBootstrapFill className='bootstrap' size={30}/> <AiFillHtml5 className='html5' size={30}/> </div>
                 </div>
                 <div className='col-2 row card-d text-center'>
                     <div><h3>Delivery Jet</h3></div>
                     <div><p>version: Desktop</p></div>
-                    <div><a href='https://github.com/FxIvan/delivery-jet'>Delivery Jet</a></div>
+                    <div className='button-a'><a href='https://github.com/FxIvan/delivery-jet'>Delivery Jet</a></div>
                     <div className='mt-4'><GrReactjs className='react' size={30}/><BsFillBootstrapFill className='bootstrap' size={30}/><AiFillHtml5 className='html5' size={30}/></div>
                 </div>
                 <div className='col-2 row card-d text-center'>
                     <div><h3>Metalurgica Web</h3></div>
                     <div><p>version: Desktop</p></div>
-                    <div><a href='https://github.com/FxIvan/delivery-jet'>Metalurgica Web</a></div>
+                    <div className='button-a'><a href='https://github.com/FxIvan/delivery-jet'>Metalurgica web</a></div>
                     <div className='mt-4'><AiFillHtml5 className='html5' size={30}/> <BsFillBootstrapFill className='bootstrap' size={30}/></div>
                 </div>
                 <div className='col-2 row card-d  text-center'>
                     <div><h3>Effort Tienda</h3></div>
                     <div><p>version: Desktop, Mobile</p></div>
-                    <div><a href='https://effortindumentaria.000webhostapp.com/'>Effort Tienda</a></div>
+                    <div className='button-a'><a href='https://effortindumentaria.000webhostapp.com/'>Effort Tienda</a></div>
                     <div className='mt-4'><AiFillHtml5 className='html5' size={30}/> <BsFillBootstrapFill className='bootstrap' size={30}/> <DiSass className='sass' size={30}/></div>
                 </div>
         </div>
+        <div>
+                <div className='text-center'>
+                  <h2>Mas proyecto en:</h2>
+                </div>
+                <div className='text-center link-github'>
+                  <a href='https:///github.com/FxIvan'>Github/FxIvan</a>
+                </div>
+        </div>
       </section>
+      <footer>
+        <div className='mt-3'>
+                <div className='text-center footer-desktop'>
+                  <img src={logo}/>
+                </div>
+        </div>
+      </footer>
     </div>
   )
 }
