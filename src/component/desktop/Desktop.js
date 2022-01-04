@@ -62,7 +62,7 @@ export const Desktop = () => {
                 <h3 className="text-center">Sitema de Control de Version</h3>
                 <div className="col-12 d-flex justify-content-evenly align-items-center mt-4">
                   <FaGitAlt size={80} className="col-3 git" />
-                  <AiFillGithub size={80} className="col-3 github" />
+                  <AiFillGithub size={80} className="col-3 githubd" />
                 </div>
               </div>
             </div>
@@ -153,9 +153,10 @@ export const Desktop = () => {
         </div>
       </section>
       <footer>
-        <div className='mt-3'>
+        <div className='mt-5'>
                 <div className='text-center footer-desktop'>
                   <img src={logo}/>
+                  <p className='mb-0'>© Almendra Ivan | 2022 </p>
                 </div>
         </div>
       </footer>
